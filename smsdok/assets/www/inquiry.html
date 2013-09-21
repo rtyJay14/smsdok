@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>SMS Dok</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body onload="function()">
+    <center><h2>Makati Medical Center</h2></center>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+            <select name="listingtype" id="listingtype" onchange="docText(this);">
+                <option value="">- Please Choose your Doctor -</option>
+                <option value="Ramon Abarquez">Ramon Abarquez, M.D.</option>
+                <option value="Alipio Abad">Alipio Abad, Jr., M.D.</option>
+                <option value="Salvador Abad-Santos">Salvador Abad-Santos, M.D. </option>
+                <option value="Ma. Carla Abello-Chuatico">Ma. Carla Abello-Chuatico, M.D. </option>
+            </select>
+
+            <p id="doc_desc" style="font-size: 16px; padding: 5px"></p>  
+
+            <form action="http://121.58.235.156/sms/sms_out.php?username=smsdok&password=smsdok&msisdn=+639295143874&kw=cs&service=smsdok&var1=smsdok&text=ReplyMessage&rrn=RRN&svc_id=ServiceId&binfo=BINFO&on=BOOLEAN&dlrurl=DLR" method="post">
+
+            Concerns: <br><textarea name="concerns" style="height: 250px; width: 243px"></textarea><br><br>
+            <input type="submit" value="submit" style="font-size: 14px; font-style: comic sans ms">
+            </form>
+
+      </div>
+    </div>
+
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript">
+      function docText(doc) // <- but why pass sel here??
+        {
+            sel = document.getElementById('listingtype'); // <- when you select it here
+            var priceDesc = document.getElementById('doc_desc');
+            if ( sel.options[sel.selectedIndex].value == "Ramon Abarquez" ) {
+              priceDesc.innerHTML = "<b>Specialization:</b> Obstetrics and Gynecology </br> <b>Availability:</b> M T W Th F S </br> <b>Room:</b> Tower 1 , 2nd Floor , Hall B , Room 229";
+            }
+            else if ( sel.options[sel.selectedIndex].value == "Alipio Abad" ) {
+              priceDesc.innerHTML = "<b>Specialization:</b> Pulmonology </br> <b>Availability:</b> M T W F S </br> <b>Room:</b> Tower 1 , 1F , CPM , L5";
+            }
+            else if ( sel.options[sel.selectedIndex].value == "Salvador Abad-Santos" ) {
+              priceDesc.innerHTML = "<b>Specialization:</b> Infectious Diseases </br> <b>Availability:</b> T W Th S </br> <b>Room:</b> Tower 1 , 2nd Flr. , Hall C , Rm. 259";
+            }
+            else if ( sel.options[sel.selectedIndex].value == "Ma. Carla Abello-Chuatico" ) {
+              priceDesc.innerHTML = "<b>Specialization:</b> Hematology </br> <b>Availability:</b> M T W Th F S </br> <b>Room:</b> Tower 1 , 2nd Floor , Hall B , Room 207";
+            }
+        }
+    </script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
