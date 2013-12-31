@@ -1,0 +1,242 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* */
+
+/* Clearfix */
+.clearfix:after {
+	 content: ""; 
+	display: block;
+	clear: both;
+	
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+/* End Clearfix */
+
+#header {
+	background: #000000 repeat-x;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 120px;
+}
+
+#header h1 {
+	font-weight: bolder;
+	font-family:  aharoni, Comic Sans MS, cursive;
+	color: #FF8C00;
+	font-size: 30px;
+	padding-left: 5px;
+}
+
+#header h3 {
+	color: white;
+	font-size: 10px;
+	font-family: arial;
+	font-decoration: none;
+}
+
+#header desc {
+	font-style: italic;
+}
+
+#header span {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	font-weight: bolder;
+}
+
+#logo {
+	float: left;
+	margin-top: 30px;
+
+}
+
+#upper {
+	border-top: 1px solid #000;
+}
+
+#ps {
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 14px;
+	
+}
+
+#perspective {
+	float: left;
+}
+
+#search {
+	float: left;
+	margin-left: 70px;
+}
+
+#categories {
+	padding: 0px;
+}
+
+#categories ul {
+	float: right;
+	width: 980px;
+	margin: 0 auto;
+}
+
+#categories ul .cats ul {
+	background:#000; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	list-style:none;
+	position: absolute;
+	width: 400px;
+	display: none;
+	
+}
+
+#categories ul .cats ul li {
+	padding: 20px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+}
+
+#categories ul .cats ul a {
+	white-space:nowrap;
+}
+
+#categories .cats:hover ul {
+	display: block;
+
+}
+
+#categories li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+		
+    color: #ffffff;
+}
+
+#categories li:hover ul a {
+
+}
+
+#categories li:hover ul li a:hover {
+	text-decoration: underline;
+}
+
+#categories li {
+	float: left;
+	list-style: none;
+	padding: 0 30px 0 30px;
+}
+
+#categories  a {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#content #left-navigation {
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 322px;
+	padding: 10px 0 0 20px;
+
+}
+
+#content #left-navigation h1 {
+	font-family: Arial;
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+#content #left-navigation ul {
+
+}
+
+#content #left-navigation li {
+	margin-bottom: 15px;
+	
+}
+
+#content #left-navigation a {
+	font-family: Arial;
+	font-size: 12px;
+	color: #22272D;
+	text-decoration: none;
+}
+
+#content #left-navigation a:hover {
+	text-decoration: underline;
+}
+
+#content #content-wrapper {
+	position: absolute;
+	top: 121px;
+	left: 342px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+
+#footer {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: #22272D repeat-x;
+}

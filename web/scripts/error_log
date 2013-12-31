@@ -1,0 +1,45 @@
+[10-Nov-2012 20:17:00] PHP Warning:  require_once(/home/p472666/public_html/rice/scripts/ricepluplus.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/p472666/public_html/rice/scripts/prepend.php on line 15
+[10-Nov-2012 20:17:00] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/p472666/public_html/rice/scripts/ricepluplus.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/p472666/public_html/rice/scripts/prepend.php on line 15
+[10-Nov-2012 20:18:00] PHP Fatal error:  Cannot redeclare class core in /home/p472666/public_html/rice/scripts/prepend.php on line 17
+[10-Nov-2012 20:18:50] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:18:50] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 180
+[10-Nov-2012 20:18:50] PHP Warning:  XDB: Invalid MySQL link.
+SELECT * from 
+/reports.assoc?
+ in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 95
+[10-Nov-2012 20:20:40] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:22:00] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:23:00] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:23:42] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:24:06] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:24:08] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:24:20] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:25:14] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 06:26:12] PHP Parse error:  syntax error, unexpected T_STRING in /home/p472666/public_html/rice/scripts/test.php on line 3
+[10-Nov-2012 20:26:29] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:27:24] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:28:11] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:28:13] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:30:04] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:31:00] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:31:04] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:31:08] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:43:45] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:44:26] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:44:56] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:46:47] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 20:47:59] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 188
+[10-Nov-2012 13:50:04] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/p472666/public_html/rice/scripts/test.php on line 13
+[10-Nov-2012 13:50:30] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/p472666/public_html/rice/scripts/test.php on line 13
+[10-Nov-2012 13:50:32] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/p472666/public_html/rice/scripts/test.php on line 13
+[11-Nov-2012 03:51:40] PHP Warning:  XDB: Unknown column 'rice variety' in 'field list'
+INSERT INTO p472666_rice.reports (`name`, `contact_no`, `address`, `rice variety`, `stage`, `part`, `color`, `hole`, `broken`, `pillars`, `spotty`, `problems`, `image`, `lat`, `long`) VALUES ('Rustan Capal', '09292608488', 'los banos', 'r19', '1 month', 'Sheath', 'yellow', 'Yes', 'Yes', 'Yes', 'Yes', '', '1352576786A0fe2.jpg', '14.1607913', '121.2249991')
+mysql://p472666_rice:T=t6Grz9W[rm@localhost/p472666_rice/reports
+ in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 95
+[11-Nov-2012 03:51:46] PHP Warning:  XDB: Unknown column 'rice variety' in 'field list'
+INSERT INTO p472666_rice.reports (`name`, `contact_no`, `address`, `rice variety`, `stage`, `part`, `color`, `hole`, `broken`, `pillars`, `spotty`, `problems`, `image`, `lat`, `long`) VALUES ('Rustan Capal', '09292608488', 'los banos', 'r19', '1 month', 'Sheath', 'yellow', 'Yes', 'Yes', 'Yes', 'Yes', '', '1352576786A0fe2.jpg', '14.1607913', '121.2249991')
+mysql://p472666_rice:T=t6Grz9W[rm@localhost/p472666_rice/reports
+ in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 95
+[11-Nov-2012 05:09:22] PHP Warning:  Missing argument 2 for riceplusplus::add_comment(), called in /home/p472666/public_html/rice/scripts/test.php on line 14 and defined in /home/p472666/public_html/rice/scripts/riceplusplus.php on line 79
+[11-Nov-2012 05:09:22] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/p472666/public_html/rice/scripts/includes/class.xdb.php/class.xdb.php on line 227
+[10-Nov-2012 19:36:32] PHP Parse error:  syntax error, unexpected T_ECHO in /home/p472666/public_html/rice/scripts/test.php on line 26

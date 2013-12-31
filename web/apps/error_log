@@ -1,0 +1,4 @@
+[10-Nov-2012 06:36:09] PHP Fatal error:  Class 'User_m' not found in /home/p472666/public_html/rice/apps/application/controllers/welcome.php on line 22
+[10-Nov-2012 06:36:11] PHP Fatal error:  Class 'User_m' not found in /home/p472666/public_html/rice/apps/application/controllers/welcome.php on line 22
+[10-Nov-2012 06:36:18] PHP Fatal error:  Class 'User_m' not found in /home/p472666/public_html/rice/apps/application/controllers/welcome.php on line 22
+[10-Nov-2012 06:38:34] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::dm_call_method() in /home/p472666/public_html/rice/apps/application/libraries/datamapper.php on line 1044
